@@ -2,6 +2,10 @@ body {
     font-family: 'Nunito', sans-serif !important;
 }
 
+.jumbotron-desktop {
+    min-height: 100vh;
+}
+
 .dropdown-item:focus {
     background-color: #0c1e2d !important;
     color: white !important;
@@ -13,6 +17,20 @@ body {
 
 .navbar-desktop {
     background-color: #0c1e2d !important;
+}
+
+.btn-primary {
+    background-color: #0c1e2d !important;
+    border: none !important;
+}
+
+.btn-primary:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-primary:hover {
+    background-color: #243442 !important;
 }
 
 .animated-icon {
